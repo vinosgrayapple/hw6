@@ -3,18 +3,94 @@
 	margin: 0;
 	padding: 0;
 }
-
-.main {
-	width: 912px;
+body {
+	font-family: Arial, sans-serif;
+}
+main {
+	width: 910px;
 	margin: 0 auto;
+	position: relative;
 }
 
-.blick_copy {
-  background-image: url("../img/blick-copy.png");
-  /*position: absolute;*/
-  left: 45px;
-  top: 54px;
-  width: 909px;
-  height: 237px;
-  z-index: 318;
+header {
+	position: relative;
+	height: 25px;
+	width: 100%;
+	margin-top: 18px;
+	/*border: 1px solid #000;*/
+	
 }
+
+.circle__phone {
+	position: absolute;
+	left: 7px;
+	bottom: -1px;
+	width: 22px;
+	height: 22px;
+}
+
+.number__phone {
+	position: absolute;
+	bottom: -4px;
+	 left: 33px; 
+}
+
+form {
+  border-radius: 3px;
+  background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  box-shadow: 1.5px 2.598px 3px 0px rgb( 150, 150, 150 );
+  position: absolute;
+  left: 314px;
+  top: 0px;
+  width: 496px;
+  height: 27px;
+  z-index: 84;
+
+}
+
+figure {
+	position: absolute;
+  	background-image: url("../img/blick-copy.png");
+	top: 36px;
+	width: 909px;
+	height: 237px;
+}
+
+
+
+/*
+.Группа_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1000px;
+  height: 1310px;
+  z-index: 116;
+}
+.телефонная_трубочка {
+  background-image: url("телефонная трубочка.png");
+  position: absolute;
+  left: 55px;
+  top: 22px;
+  width: 15px;
+  height: 20px;
+  z-index: 115;
+}
+.Shape_8 {
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  position: absolute;
+  left: 52px;
+  top: 22px;
+  width: 22px;
+  height: 21px;
+  z-index: 114;
+}
+
+
+
+*/
