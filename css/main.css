@@ -45,7 +45,7 @@ form {
   left: 314px;
   top: 0px;
   width: 496px;
-  height: 27px;
+  height: 25px;
   z-index: 84;
 
 }
@@ -65,31 +65,74 @@ form {
 	padding-left: 3px;
 	/*padding-top: -3px;*/
 	font-family: LucidaSansUnicode, sans-serif;
-	font-size: 12px;
+	font-size: 11px;
+	letter-spacing: .1em;
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
 }
 #login {
 	position: absolute;
-	top: 2px;
+	top: 3px;
 	left: 24px;
 }
 #password {
 	position: absolute;
-	top: 2px;
+	top: 3px;
 	left: 145px;
 	
 }
-.form__button {
+.form__button{
 	position: absolute;
-	top: 3px;
+	top: 4px;
 	left: 266px;
 	
 	background-color: transparent;
 	border-color: transparent;
 	font-family: LucidaSansUnicode, sans-serif;
-	font-size: 12px;
+	font-size: 11px;
+	letter-spacing: 0;
 	color: #fff;
   	cursor: pointer;
   	
+}
+.registration a {
+	text-decoration: none;
+	color: #FFF;
+}
+ .forget__password a {
+	color: #FFF;
+}
+.registration {
+	display: block;
+	position: absolute;
+	top: 6px;
+	left: 305px;
+	font-family: LucidaSansUnicode, sans-serif;
+	font-size: 11px;
+	font-size: 11px;
+	letter-spacing: 0;
+	color: #fff;
+  	cursor: pointer;
+} 
+.forget__password {
+	display: block;
+	position: absolute;
+	top: 6px;
+	right: 22px;
+	font-family: LucidaSansUnicode, sans-serif;
+	font-size: 11px;
+	letter-spacing: 0;
+	color: #fff;
+  	cursor: pointer;
+}
+.vertical__line {
+	position: absolute;
+	right: 197px;
+	top: 8px;
+	width: 1px;
+	height: 10px;
+	background-color: #FFF;
+	color: green;
 }
 figure {
 	position: absolute;
