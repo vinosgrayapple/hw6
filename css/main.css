@@ -62,11 +62,11 @@ form {
 	height: 18px;
 	background-color: white;
 	border: 1px solid #9ba1a3;
-	padding-left: 3px;
+	padding-left: 4px;
 	/*padding-top: -3px;*/
 	font-family: LucidaSansUnicode, sans-serif;
 	font-size: 11px;
-	letter-spacing: .1em;
+	letter-spacing: 0.04em;
 	-webkit-border-radius: 2px;
 	        border-radius: 2px;
 }
@@ -84,46 +84,47 @@ form {
 .form__button{
 	position: absolute;
 	top: 4px;
-	left: 266px;
+	left: 263px;
 	
 	background-color: transparent;
 	border-color: transparent;
 	font-family: LucidaSansUnicode, sans-serif;
 	font-size: 11px;
-	letter-spacing: 0;
+	letter-spacing: 0.02em;
 	color: #fff;
   	cursor: pointer;
   	
 }
-.registration a {
+.registration a, .forget__password a {
 	text-decoration: none;
-	color: #FFF;
-}
- .forget__password a {
 	color: #FFF;
 }
 .registration {
 	display: block;
 	position: absolute;
-	top: 6px;
-	left: 305px;
+	top: 7px;
+	left: 304px;
 	font-family: LucidaSansUnicode, sans-serif;
 	font-size: 11px;
 	font-size: 11px;
-	letter-spacing: 0;
+	letter-spacing: 0.02em;
 	color: #fff;
   	cursor: pointer;
 } 
 .forget__password {
 	display: block;
 	position: absolute;
-	top: 6px;
-	right: 22px;
-	font-family: LucidaSansUnicode, sans-serif;
+	top: 4px;
+	right: 10px;
+	font-family: "Conv_Lucida Sans Unicode", sans-serif;
 	font-size: 11px;
-	letter-spacing: 0;
-	color: #fff;
+	letter-spacing: 0.05em;
+	color: #bfbfbf;
+	line-height: 1.38em;
   	cursor: pointer;
+  	border-bottom: 1px solid #bfbfbf;
+  	// padding-bottom: 0px;
+  	// text-decoration: underline;
 }
 .vertical__line {
 	position: absolute;
@@ -133,6 +134,32 @@ form {
 	height: 10px;
 	background-color: #FFF;
 	color: green;
+}
+.links_header {
+	position: absolute;
+	top: 0;
+	right: 7px;
+	width: 75px;
+	height: 20px;
+	border: 1px solid #bdc4c7;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.wrapper_links_header {
+	position: relative;
+}
+#links_home, #links_mapsite, #links_mail {
+	position: absolute;
+	top: -1px;
+}
+#links_home {
+	left: 8px;
+}
+#links_mapsite {
+	left: 28px;
+}
+#links_mail {
+	left: 51px;
 }
 figure {
 	position: absolute;
