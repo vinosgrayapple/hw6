@@ -73,22 +73,22 @@ form {
 #login {
 	position: absolute;
 	top: 3px;
-	left: 24px;
+	left: 25px;
 }
 #password {
 	position: absolute;
 	top: 3px;
-	left: 145px;
+	left: 146px;
 	
 }
 .form__button{
 	position: absolute;
-	top: 4px;
-	left: 263px;
+	top: 2px;
+	left: 265px;
 	
 	background-color: transparent;
 	border-color: transparent;
-	font-family: LucidaSansUnicode, sans-serif;
+	font-family:  "Conv_Lucida Sans Unicode", sans-serif;
 	font-size: 11px;
 	letter-spacing: 0.02em;
 	color: #fff;
@@ -102,20 +102,20 @@ form {
 .registration {
 	display: block;
 	position: absolute;
-	top: 7px;
-	left: 304px;
-	font-family: LucidaSansUnicode, sans-serif;
+	top: 4px;
+	left: 303px;
+	font-family: "Conv_Lucida Sans Unicode", sans-serif;
 	font-size: 11px;
 	font-size: 11px;
-	letter-spacing: 0.02em;
+	letter-spacing: -0.015em;
 	color: #fff;
   	cursor: pointer;
 } 
 .forget__password {
 	display: block;
 	position: absolute;
-	top: 4px;
-	right: 10px;
+	top: 5px;
+	right: 11px;
 	font-family: "Conv_Lucida Sans Unicode", sans-serif;
 	font-size: 11px;
 	letter-spacing: 0.05em;
@@ -123,8 +123,7 @@ form {
 	line-height: 1.38em;
   	cursor: pointer;
   	border-bottom: 1px solid #bfbfbf;
-  	// padding-bottom: 0px;
-  	// text-decoration: underline;
+  	font-weight: normal;
 }
 .vertical__line {
 	position: absolute;
@@ -168,9 +167,53 @@ figure {
 	width: 909px;
 	height: 237px;
 }
-
-
-
+nav {
+position: absolute;
+top: 279px;
+left: 0;
+width: 910px;
+height: 33px;
+/*background-color: white;
+background-image: linear-gradient(to top, black 0%, #576068 100%);*/
+background:url(../img/nav_bg.png) repeat-x;
+border: 1px solid #0d1642;
+border-radius: 5px;
+box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
+}
+nav ul {
+	margin-left: 124px;
+}
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin-top: 3px;
+	margin-bottom: 4px;
+	height: 26px;
+}
+nav ul li:hover{
+}
+nav ul a {
+	padding-left: 22px;
+	padding-right: 9px;
+	letter-spacing: -0.015em;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #B1BCC0;
+	font-family: "Conv_Lucida Sans Unicode", sans-serif;
+	font-size: 14px;
+	/*width: 123px;*/
+	line-height: 26px;
+}
+nav ul a:hover {
+	color: #FFF;
+	background-color: #f60303;
+	background-image: -webkit-linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);
+	background-image: -o-linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);
+	background-image: linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);
+	-webkit-border-radius: 25px;
+	        border-radius: 25px;
+}
 /*
 .Группа_1 {
   position: absolute;
